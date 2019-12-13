@@ -8,6 +8,7 @@
         "cm": "git-cz"
     },
     "husky": {
+
         "hooks": {
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS && npm run lint && npm run test"
         }
